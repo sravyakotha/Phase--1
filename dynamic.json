@@ -1,0 +1,47 @@
+{
+	"profile":{
+		"img":"blue flower.jpg",
+		"name":"sravya",
+		"roll":"1275",
+		"place":"guntur",
+		"des":"trainer cum developer"
+	},
+	"career":{
+		"info":"i am explore my talents for the benefits of the organization"
+	},
+	"education":[
+		{
+			"sno":"1",
+			"degree":"b.tech",
+			"institute":"abcd",
+			"per":"86%",
+			"yop":"2018"
+		},
+		{
+			"sno":"2",
+			"degree":"intermediate",
+			"institute":"abcde",
+			"per":"86%",
+			"yop":"2016"
+		},
+		{
+			"sno":"3",
+			"degree":"ssc",
+			"institute":"abc",
+			"per":"85%",
+			"yop":"2015"
+		}
+	],
+	"languages":[
+		{
+			"info":"english"
+		},
+		{
+			"info":"hindi"
+		},
+		{
+			"info":"telugu"
+		}
+
+	]
+}

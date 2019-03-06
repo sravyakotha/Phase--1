@@ -1,0 +1,97 @@
+.main1{
+	display: flex;
+	border: 3px solid #000;
+
+}
+.left{
+	height: 70%;
+	width: 25%;
+	border: 3px solid #000;
+	margin: 3%;
+	padding: 3%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px lightblue;
+}
+img{
+	width: 50%;
+	border-radius: 50%;
+	display: block ;
+	margin-right: auto;
+	margin-right: auto;
+
+}
+.right{
+	
+	width: 65%;
+	border: 3px solid #000;
+	margin: 3%;
+	padding: 3%;
+	box-shadow: 3px 3px 3px 3px blue;
+}
+/*media queries*/
+@media screen and (min-width:320px) and (max-width:480px){
+  .main1{
+	display: flex;
+	border: 3px solid #000;
+	flex-direction: column;
+}
+.left{
+	height: 70%;
+	width: 90%;
+	border: 3px solid #000;
+	margin: 3%;
+	padding: 3%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px lightblue;
+	background: pink;
+}
+img{
+	width: 50%;
+	border-radius: 50%;
+	display: block ;
+	margin-right: auto;
+	margin-right: auto;
+
+
+}
+.right{
+	
+	width: 90%;
+	border: 3px solid #000;
+	margin: 3%;
+	padding: 3%;
+	box-shadow: 3px 3px 3px 3px blue;
+}
+}
+/*tabview*/
+@media screen and (min-width:480px) and (max-width:780px){
+  .main1{
+	display: flex;
+	border: 3px solid #000;
+	flex-direction: row;
+}
+.left{
+	width: 50%;
+	border: 3px solid #000;
+	margin: 3%;
+	padding: 3%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px lightblue;
+	background: pink;
+}
+img{
+	width: 50%;
+	border-radius: 50%;
+	display: block ;
+	margin-right: auto;
+	margin-right: auto;
+}
+.right{
+	
+	width: 50%;
+	border: 3px solid #000;
+	margin: 3%;
+	padding: 3%;
+	box-shadow: 3px 3px 3px 3px blue;
+}
+}
